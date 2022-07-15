@@ -1,0 +1,253 @@
+@media (max-width: 799px){
+  .section-p1 {
+    padding: 40px 40px;
+  }
+    #navbar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background: #e3e6f3;
+        box-shadow: 0 40px 50px rgba(0,0,0,0.1);
+        padding: 80px 0 0 10px;
+        transition: .5s;
+    }
+    #navbar.active{
+        right: 0;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+         
+      }
+      #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+      }
+      #close{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+
+      }
+      #lg-card{
+        display: none;
+      }
+      #close{
+        display: block;
+      }
+      #hero {
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 40%;
+      }
+      #feature {
+        justify-content: center;
+      }
+      #feature .fe-box {
+        margin: 15px 15px;
+      }
+      #product1 .pro-container {
+        justify-content: center;
+      }
+      #product1 .pro {
+        margin: 15px;
+      }
+      #banner {
+        height: 20vh;
+      }
+      #sm-banner .banner-box {
+        min-width: 100%;
+        height: 30vh;
+      }
+      #banner-3 {
+        padding: 0px 40px;
+      }
+      #banner-3 .banner-box {
+        width: 28%;
+      }
+      #newsletter .form {
+        width: 70%;
+      }
+      #sm-banner .banner-box {
+        margin-bottom: 20px;
+      }
+      /* === contact-pages === */
+      #form-details {
+        padding: 40px;
+      }
+      /* === card-pages === */
+      #card {
+        overflow-x: auto;
+      }
+}
+
+
+@media (max-width: 477px){
+  .section-p1 {
+    padding: 20px;
+  }
+  #header {
+    padding: 10px 30px;
+  }
+  h2 {
+    font-size: 32px;
+    
+  }
+  h1 {
+    font-size: 38px;
+  }
+  #hero {
+    
+    padding:  20px;
+    background-position: 50%;
+  }
+  #feature .fe-box {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+  #feature {
+    justify-content: space-between;
+  }
+  #product1 .pro {
+    width: 100%;
+  }
+  #banner {
+    height: 40vh;
+  }
+  #sm-banner .banner-box {
+    height: 40vh;
+  }
+  #sm-banner .banner-box2 {
+    margin-top: 20px;
+  }
+  #banner-3 {
+    padding: 0px 20px;
+  }
+  #banner-3 .banner-box {
+    width: 100%;
+  }
+  #newsletter .form {
+    width: 100%;
+  }
+  #newsletter .form {
+    width: 100%;
+    margin-top: 15px;
+  }
+  #newsletter {
+    padding: 40px 20px;
+  }
+  footer .col {
+    width: 100%;
+  }
+  footer .copyright {
+    text-align: start;
+  }
+
+  /* == SPRODUCT-SINGLE-PAGES == */
+  #prodetails {
+    flex-direction: column;
+  }
+  #prodetails .single-pro-image {
+    width: 100%;
+    margin-right: 0px;
+    
+  }
+  #prodetails .single-pro-details {
+    width: 100%;
+    
+  }
+
+  /* == BLOG-PAGES == */
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #blog .blog-img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  #blog .blog-details {
+    width: 100%;
+  }
+
+  /* == ABOUT-PAGES == */
+  #about-head {
+    flex-direction: column;
+  }
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #about-head div {
+    padding-left: 0px;
+    width: 100%;
+  }
+  #about-app .video {
+    width: 100%;
+  }
+
+   /* === contact-pages === */
+  #contact-detils {
+    flex-direction: column;
+  }
+  #contact-detils .details {
+    width: 100%;
+  }
+  #contact-detils .map {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  #form-details {
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+  }
+  #form-details {
+    flex-direction: column;
+  }
+  #form-details form {
+    width: 100%;
+    
+  }
+  #form-details .people {
+    margin-top: 20px;
+  }
+
+  /* === card-pages === */
+  #card-add {
+    flex-direction: column;
+  }
+  #coupon {
+    width: 100%;
+    
+  }
+  #subtotal {
+    width: 100%;
+    padding: 10px;
+  }
+}
+ 
+
+ 
+
+  
+  
+ 
